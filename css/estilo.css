@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+time{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header,section,footer,aside,nav,article,figure,figcaption,hgroup{
+    display: block;/*para que la pagina se comporte en bloques*/
+}
+
+body{
+    text-align: left;
+}
+
+#encabezado{
+    background-color: bisque;
+    border: 2px solid #797673;
+    padding: 20px;
+    text-align: center;
+}
+
+#Principal{
+    background-color: white;
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+}
+
+#barra{
+    margin: 15px 0px;
+    /*box-shadow: 2px 2px 8px #797673;*/
+}
+
+#barra li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+#barra li a{
+    background-color: #797673;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#barra li a:hover{
+    background-color: #b4b1af;
+}
+
+#seccion{
+    display: flex;
+    float: left;
+    width: 25%;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+#columna{
+    float: right;
+    width: 20%;
+    max-width: 10px 1%;
+    background-color: bisque;
+    padding: 20px;
+}
+
+#columna p{
+    text-align: left;
+    margin: 15px;
+}
+
+#barraSecundaria{
+    margin: 20px 60px;
+    text-align: left;
+}
+
+#barraSecundaria li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+#barraSecundaria a li{
+    background-color: #797673;
+    color: white;
+    font-size: 18px;
+    margin: 2px;
+    padding: 5px 8px;
+    text-decoration: none;
+    text-align: left;
+}
+
+#barraSecundaria a li:hover{
+    background-color: #b4b1af;
+}
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    background-color: white;
+    border-top: 2px solid #797673;
+}
+
+#pie li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+article{
+    background-color: #f1e7d7;
+    border: #b4b1af;
+    padding: 20px;
+    margin: 25px;
+}
+
+article hgroup,h3,time,img,figcaption,p{
+    margin: 8px;
+}
+article footer p{
+    text-align: right;
+}
+
+figcaption{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
